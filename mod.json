@@ -1,0 +1,237 @@
+{
+  "geode": "5.10.1",
+  "gd": {
+    "win": "2.2081",
+    "mac": "2.2081",
+    "ios": "2.2081"
+  },
+  "id": "ben.frame-lab",
+  "name": "FB Frame Counter",
+  "version": "v0.5.0",
+  "developer": "Ben",
+  "description": "Practice recording, replay, and 240 Hz frame-window analysis.",
+  "resources": {
+    "files": [
+      "resources/*.wav"
+    ]
+  },
+  "settings": {
+    "markers": {
+      "type": "bool",
+      "name": "Click circles",
+      "default": true
+    },
+    "counters": {
+      "type": "bool",
+      "name": "Frame counters",
+      "default": true
+    },
+    "sounds": {
+      "type": "bool",
+      "name": "Click sounds",
+      "default": true,
+      "description": "Play a ding for measured inputs during playback. Scans stay silent."
+    },
+    "counter-scale": {
+      "type": "float",
+      "name": "Counter size",
+      "default": 1.0,
+      "min": 0.5,
+      "max": 2.0
+    },
+    "max-counted-frames": {
+      "type": "int",
+      "name": "Max circle frame",
+      "default": 15,
+      "min": 1,
+      "max": 60,
+      "description": "Hide click circles above this exact frame width. Counters, sounds and copied counts are unchanged."
+    },
+    "counter-ranges": {
+      "type": "string",
+      "name": "Counter rows",
+      "default": "9-12,7-8,5-6,4,3,2,1",
+      "description": "Use comma-separated frame numbers or ranges, such as 1,2,3,7-8."
+    },
+    "sound-1": {
+      "type": "file",
+      "name": "Custom 1 frame sound",
+      "default": "",
+      "control": {
+        "filters": [
+          {
+            "description": "Audio",
+            "files": [
+              "*.wav",
+              "*.ogg",
+              "*.mp3"
+            ]
+          }
+        ]
+      },
+      "description": "Leave empty for the bundled cue. Choose a local audio file."
+    },
+    "sound-2": {
+      "type": "file",
+      "name": "Custom 2 frame sound",
+      "default": "",
+      "control": {
+        "filters": [
+          {
+            "description": "Audio",
+            "files": [
+              "*.wav",
+              "*.ogg",
+              "*.mp3"
+            ]
+          }
+        ]
+      },
+      "description": "Leave empty for the bundled cue. Choose a local audio file."
+    },
+    "sound-3": {
+      "type": "file",
+      "name": "Custom 3 frame sound",
+      "default": "",
+      "control": {
+        "filters": [
+          {
+            "description": "Audio",
+            "files": [
+              "*.wav",
+              "*.ogg",
+              "*.mp3"
+            ]
+          }
+        ]
+      },
+      "description": "Leave empty for the bundled cue. Choose a local audio file."
+    },
+    "sound-4": {
+      "type": "file",
+      "name": "Custom 4 frame sound",
+      "default": "",
+      "control": {
+        "filters": [
+          {
+            "description": "Audio",
+            "files": [
+              "*.wav",
+              "*.ogg",
+              "*.mp3"
+            ]
+          }
+        ]
+      },
+      "description": "Leave empty for the bundled cue. Choose a local audio file."
+    },
+    "sound-5": {
+      "type": "file",
+      "name": "Custom 5 frame sound",
+      "default": "",
+      "control": {
+        "filters": [
+          {
+            "description": "Audio",
+            "files": [
+              "*.wav",
+              "*.ogg",
+              "*.mp3"
+            ]
+          }
+        ]
+      },
+      "description": "Leave empty for the bundled cue. Choose a local audio file."
+    },
+    "sound-6": {
+      "type": "file",
+      "name": "Custom 6 frame sound",
+      "default": "",
+      "control": {
+        "filters": [
+          {
+            "description": "Audio",
+            "files": [
+              "*.wav",
+              "*.ogg",
+              "*.mp3"
+            ]
+          }
+        ]
+      },
+      "description": "Leave empty for the bundled cue. Choose a local audio file."
+    },
+    "sound-7": {
+      "type": "file",
+      "name": "Custom 7 frame sound",
+      "default": "",
+      "control": {
+        "filters": [
+          {
+            "description": "Audio",
+            "files": [
+              "*.wav",
+              "*.ogg",
+              "*.mp3"
+            ]
+          }
+        ]
+      },
+      "description": "Leave empty for the bundled cue. Choose a local audio file."
+    },
+    "sound-8": {
+      "type": "file",
+      "name": "Custom 8 frame sound",
+      "default": "",
+      "control": {
+        "filters": [
+          {
+            "description": "Audio",
+            "files": [
+              "*.wav",
+              "*.ogg",
+              "*.mp3"
+            ]
+          }
+        ]
+      },
+      "description": "Leave empty for the bundled cue. Choose a local audio file."
+    },
+    "sound-9": {
+      "type": "file",
+      "name": "Custom 9 frame sound",
+      "default": "",
+      "control": {
+        "filters": [
+          {
+            "description": "Audio",
+            "files": [
+              "*.wav",
+              "*.ogg",
+              "*.mp3"
+            ]
+          }
+        ]
+      },
+      "description": "Leave empty for the bundled cue. Choose a local audio file."
+    },
+    "sound-wide": {
+      "type": "file",
+      "name": "Custom wide sound",
+      "default": "",
+      "control": {
+        "filters": [
+          {
+            "description": "Audio",
+            "files": [
+              "*.wav",
+              "*.ogg",
+              "*.mp3"
+            ]
+          }
+        ]
+      },
+      "description": "Leave empty for the bundled cue. Choose a local audio file."
+    }
+  }
+}
